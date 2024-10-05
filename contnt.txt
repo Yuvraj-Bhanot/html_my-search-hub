@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>My Search Hub</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header>
+    <h1>My Search Hub</h1>
+    <nav>
+      <a href="#youtube">YouTube</a> |
+      <a href="#google">Google</a> |
+      <a href="#amazon">Amazon</a> |
+      <a href="#flipkart">Flipkart</a>
+    </nav>
+  </header>
+
+  <section id="about">
+    <h2>Welcome to My Search Hub</h2>
+    <p>
+      Discover and explore your favorite platforms all in one place. Whether you're looking to watch the latest videos, search the web, find great products, or shop online, My Search Hub provides quick access to YouTube, Google, Amazon, and Flipkart. Simplify your online experience with our integrated search forms.
+    </p>
+  </section>
+
+  <section id="youtube">
+    <h2>YouTube Search</h2>
+    <p>
+      Looking for the latest videos, tutorials, or your favorite channels? Use the form below to search directly on YouTube.
+    </p>
+    <form action="https://www.youtube.com/results" method="get" target="_blank">
+      <input type="text" name="search_query" placeholder="Search YouTube..." required>
+      <button type="submit">Search</button>
+    </form>
+  </section>
+
+  <section id="google">
+    <h2>Google Search</h2>
+    <p>
+      Need to find information, articles, or websites? Use the Google search form below to get the most relevant results.
+    </p>
+    <form action="https://www.google.com/search" method="get" target="_blank">
+      <input type="text" name="q" placeholder="Search Google..." required>
+      <button type="submit">Search</button>
+    </form>
+  </section>
+
+  <section id="amazon">
+    <h2>Amazon Search</h2>
+    <p>
+      Looking to shop for the best deals on Amazon? Use the search form below to find products, read reviews, and compare prices.
+    </p>
+    <form action="https://www.amazon.com/s" method="get" target="_blank">
+      <input type="text" name="k" placeholder="Search Amazon..." required>
+      <button type="submit">Search</button>
+    </form>
+  </section>
+
+  <section id="flipkart">
+    <h2>Flipkart Search</h2>
+    <p>
+      Want to explore the latest gadgets, fashion, or home essentials on Flipkart? Use the search form below to browse thousands of products.
+    </p>
+    <form action="https://www.flipkart.com/search" method="get" target="_blank">
+      <input type="text" name="q" placeholder="Search Flipkart..." required>
+      <button type="submit">Search</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2024 My Search Hub. All rights reserved.</p>
+    <p>
+      Follow us on:
+      <a href="#">Facebook</a> |
+      <a href="#">Twitter</a> |
+      <a href="#">Instagram</a>
+    </p>
+  </footer>
+
+</body>
+</html>
